@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=B612+Mono&family=DM+Serif+Display:ital@0;1&display=swap");
+@import "_variables";
+@import "_elements";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "DM Serif Display", monospace;
+  padding: 45px;
+}
+// main {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   top: 10vh;
+//   left: 30%;
+//   .cover {
+
+//   }
+// }
+.images {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../image/andy-holmes-UE7ep4SPvxI-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // transition: 3s;
+
+  animation-name: animate;
+  // animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in;
+}
+@keyframes animate {
+  0% {
+    background-image: url('../../image/arham-jain-iMZhSvKj2K4-unsplash.jpg');
+  }20% {
+    background-image: url('../../image/azizur-rahman-tysu4dyq9kw-unsplash.jpg');
+  }40% {
+    background-image: url('../../image/dea-krauter-9L82Oo1K0Nc-unsplash.jpg');
+  }60% {
+    background-image: url('../../image/jack-b--H03ewXHyhw-unsplash.jpg');
+  }80% {
+    background-image: url(../../image/jack-b-1mLOg5cjBVA-unsplash.jpg);
+  }100% {
+    background-image: url(../../image/jack-b-SxhNnU46jAc-unsplash.jpg);
+  }
+}
