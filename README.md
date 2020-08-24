@@ -1,6 +1,6 @@
 # SCSS Masterclass
 
-(S)CSS Layout Masterclass: Flexbox & Grid
+![screencapture-file-C-Projects-NomadCoders-CSSmasterclass-Schwartz-index-html-2020-08-24-17_15_45](https://user-images.githubusercontent.com/45188497/91020515-82c3ac80-e62d-11ea-80bf-3f3622ace717.png)
 
 ## Flexbox:
 
